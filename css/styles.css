@@ -220,7 +220,7 @@ background-color: var(--navy-blue);
 .second-section{
     background-color:var(--white);
 }
-.second-section-list{
+.second-section-list-text{
     display:flex;
     column-gap:  24px;
     row-gap: 8px;
@@ -228,7 +228,7 @@ background-color: var(--navy-blue);
 
 
 .images-list-container{
-    display: flex;
+    display: inline;
 }
 
 .header-two{
