@@ -73,6 +73,7 @@ body{
 .container{
     max-width: 1158px;
     margin: 0 auto ;
+    padding: 0 15px;
 }
 
 .section{
@@ -98,10 +99,7 @@ body{
 
 
 }
-.header-nav{
-    display: flex;
-    align-items: center;
-}
+
 .logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -110,7 +108,7 @@ body{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
-        padding-right: 76px;
+        margin-right: 76px;
 }
 .navy-text{
     color: var(--navy-blue);
@@ -119,10 +117,20 @@ body{
 .iris-logo{
 color:var(--iris);
 }
+.header-nav {
+    display: flex;
+    align-items: center;
+
+}
 
 .nav-list {
     display: flex;
     column-gap: 40px;
+    
+}
+
+.nav-item{
+    padding: 24px 0;
 }
 
 
@@ -173,6 +181,7 @@ color:var(--iris);
 
 .hero-section{
 background-color: var(--navy-blue);
+padding: 188px 0;
 }
 
 .hero-container{
@@ -188,7 +197,8 @@ background-color: var(--navy-blue);
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
-    width: 496px;}
+    width: 496px;
+}
         
 
 .primary-button{
@@ -200,18 +210,17 @@ background-color: var(--navy-blue);
         cursor: pointer;
     background-color: var(--iris);
     color:var(--white);
+    border: none;
     border-radius: 4px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
             padding: 16px 32px;
-            
+            display: block;
+            margin-top: 356px;
+            margin-bottom: 188px;
+            margin-left: 635px;
+            margin-right:635px
 }
 
-.button-flex{
-    display: inline-flex;
-        align-items: flex-start;
-        gap: 10px;
-        justify-content: center;
-}
 
 .primary-button:hover, 
 .primary-button:focus{
@@ -219,17 +228,10 @@ background-color: var(--navy-blue);
 }
 .second-section{
     background-color:var(--white);
-}
-.second-section-list-text{
-    display:flex;
-    column-gap:  24px;
-    row-gap: 8px;
+    padding: 120px 0;
 }
 
 
-.images-list-container{
-    display: inline;
-}
 
 .header-two{
     font-weight: 700;
@@ -238,12 +240,31 @@ background-color: var(--navy-blue);
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
+        
 }
-.white-text{
-    color:var(--white);
+
+.visually-hidden {position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
-.list{
-    background-color:var(--white);
+
+
+        .list {
+            display: flex;
+            column-gap: 24px;
+            row-gap: 8px;
+        }
+
+.list-item{
+    width: calc((100% - 3*24px)/4);
 }
 
 .border{
