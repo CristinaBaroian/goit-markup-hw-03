@@ -301,6 +301,7 @@ padding: 188px 0;
 
 .third-section{
     background-color: var(--cloud);
+
 }
 
 .fourth-section{
@@ -326,10 +327,11 @@ border-top:none;
 margin-bottom: 8px;
 }
 
-.footer-section{
+.footer-section {
     padding: 100px 0;
     display: inline-block;
     margin-bottom: 16px;
+
 }
 
 .cloud-text{
