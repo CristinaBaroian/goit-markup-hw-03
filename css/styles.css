@@ -112,7 +112,7 @@ img{
         text-decoration: none;
         margin-right: 76px;
         display: inline-block;
-            margin-bottom: 16px
+            margin-bottom: 16px;
 }
 .navy-text{
     color: var(--navy-blue);
@@ -324,7 +324,10 @@ padding: 32px 0;
 }
 
 
-
+.fourth-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .list-portofolio{
     display: flex;
@@ -342,7 +345,6 @@ padding: 32px 16px;
 border: 1px solid var(--cornflower);
 border-top:none;
 margin-bottom: 8px;
-overflow: hidden;
 }
 
 .footer-section {
