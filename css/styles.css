@@ -95,6 +95,7 @@ img{
 }
 
 .header-container{
+    padding: 0 15px;
    padding-top: 24px;
    padding-bottom: 24px;
     padding-left: 156px;
@@ -303,8 +304,15 @@ padding: 188px 0;
     background-color: var(--cloud);
 }
 
+.fourth-section{
+    
+}
+
 .footer-section{
     background-color: var(--navy-blue);
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 100px 0;
 }
 .cloud-text{
     color:var(--cloud);
@@ -318,4 +326,5 @@ padding: 188px 0;
         letter-spacing: 0.02em;
         color: var(--cloud);
         text-align: left;
+        max-width: 264px;
 }
