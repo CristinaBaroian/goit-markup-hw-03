@@ -267,7 +267,7 @@ padding: 188px 0;
 
 .list-item-adv{
     flex-basis: calc((100% - 3 * 24px) / 4);
-    margin: 24px;
+    
 }
 
 .list-item:last-child{
