@@ -305,12 +305,9 @@ padding: 188px 0;
 .wrap
 
 .footer-section{
-    background-color: var(--navy-blue);
+    padding: 100px 0;
     display: inline-block;
     margin-bottom: 16px;
-        padding: 100px 0;
-
-    
 }
 
 .cloud-text{
