@@ -16,6 +16,7 @@
 
 }
 /* reset styles */
+
 ul {
 
     padding-inline-start: 0;
@@ -68,6 +69,9 @@ body{
     letter-spacing: 2%;
 }
 
+img{
+    display: block;
+}
 
 
 .container{
@@ -120,12 +124,13 @@ color:var(--iris);
 .header-nav {
     display: flex;
     align-items: center;
+    gap: 40px;
 
 }
 
 .nav-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     
 }
 
@@ -197,7 +202,8 @@ padding: 188px 0;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
-    width: 496px;
+    max-width: 496px;
+  
 }
         
 
@@ -215,6 +221,8 @@ padding: 188px 0;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
             padding: 16px 32px;
             display: block;
+            min-width: 169px;
+            height: 56px;
             margin-top: 356px;
             margin-bottom: 188px;
             margin-left: 635px;
